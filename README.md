@@ -24,8 +24,30 @@ This series is for improving problem solving, logic, building, debugging, and co
 
 #### Examples:
 
-#### [1, NaN, 2, 3, "5"]
+<!-- #### [1, NaN, 2, 3, "5"] -->
+
+```js
+[1, NaN, 2, 3, "5"];
+```
 
 #### Expected Output:
 
 #### 6
+
+# Type-Safe Array Processing (JavaScript)
+
+## 📌 Overview
+
+This project demonstrates how to safely process arrays containing mixed data types and compute the largest valid number while avoiding invalid values like `NaN`, strings, and undefined.
+
+---
+
+## 🎯 Problem
+
+Given a mixed-type array, find the **largest valid number**.
+
+Example:
+
+```js
+[undefined, "10", NaN, 7, 2, "abc"];
+```
